@@ -13,7 +13,7 @@ A todo web-app using  AngularJS as Front-end and Flask as Back-end
 This project is using Flask to serve data, and AngularJS to control and view it.
 <h6>Main features of this App</h6>
 1. create a newtodo
-2. update a selected todo
+2. update a selected todo(To update a todo just click on the todo)
 3. delete particular todo
 4. delete multi todo
 5. delete all todos
