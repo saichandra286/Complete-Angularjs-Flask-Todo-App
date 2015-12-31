@@ -1,0 +1,19 @@
+.done{
+		text-decoration: line-through;
+		color: red;
+	}
+		.todo{
+		border: none;
+	}
+	.textwid{
+		width: 250px;
+	}
+	.texth{
+		height: 30px
+	}
+	.container{
+		width: 550px;
+	}
+	.title{
+		background: #f5f5f5;
+	}
