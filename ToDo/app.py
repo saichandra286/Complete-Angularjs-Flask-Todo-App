@@ -116,7 +116,6 @@ def undoall():
 	del muld[:]
 	return jsonify({'jk':muld})
 
-
 @app.route('/saitodo/api/v1.0/tasks', methods=['DELETE'])
 def delall():
 	del tasks[:]
