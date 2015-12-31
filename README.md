@@ -19,6 +19,7 @@ This project is using Flask to serve data, and AngularJS to control and view it.
 5. delete all todos
 6. search for particluar todo and update or delete todo
 7. not allowing duplicates while posting todo or updating todo
+8. you can reorder our todos as you like
 
 ## API Endpoints
 
