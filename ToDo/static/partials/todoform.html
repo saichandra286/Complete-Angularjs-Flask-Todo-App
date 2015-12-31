@@ -1,0 +1,11 @@
+<div>
+<form class="list-group-item"  name="todoform" novalidate>
+<input  type="text" name="title" ng-model="li.title" required>
+<button type="submit" class="btn btn-primary" ng-disabled="todoform.$invalid" value="GO" ng-click="newtodo()"><span class="glyphicon glyphicon-ok-circle"></span></button>
+<a href="" class="nav pull-right btn btn-primary" ng-click="DelAll()"><span class="glyphicon glyphicon-trash">All</span></a>
+</form>
+</div>
+<div class="list-group-item" ng-show="li.title">
+			<input class="todo" type="text" disabled="true" placeholder="(((li.title)))">
+			
+		</div>
